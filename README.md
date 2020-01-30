@@ -2,6 +2,7 @@
 
 Desde el principio, entrarás y construirás tu primera aplicación Node.js en minutos.
 
+- Introducción
 - Modulos incluidos en Node.js
 - Administrador de paquetes de Node.js (NPM)
 - JavaScript asincrónico
@@ -13,284 +14,64 @@ Desde el principio, entrarás y construirás tu primera aplicación Node.js en m
 - Errores de manejo y registro
 - Despliegue
 
-## Inicio
+---
+
+### Inicio
+
 + Qué es Node.js
- Arquitectura de Node.js
- Vista previa Cómo funciona el nodo (4:23)
- Vista previa del nodo de instalación (2:31)
- Vista previa Su primer programa de nodo (2:19)
- Vista previa Estructura del curso (2:13)
- StartRecap
-Sistema de módulo de nodo (00:58)
- InicioIntroducción (0:28)
- StartGlobal Object (3:21)
- StartModules (3:35)
- Comience a crear un módulo (4:43)
- Comience a cargar un módulo (5:22)
- Función de envoltorio StartModule (4:40)
- Módulo StartPath (4:08)
- Módulo StartOS (4:17)
- Módulo de sistema StartFile (4:50)
- Módulo StartEvents (6:17)
- Argumentos de StartEvent (3:08)
- StartExtending EventEmitter (8:01)
- Módulo StartHTTP (7:24)
- Resumen del núcleo de StartNode
-Administrador de paquetes de nodos (NPM) (00:48)
- InicioIntroducción (3:41)
- StartPackage.json (2:54)
- InicioInstalar un paquete de nodos (3:33)
- InicioUso de un paquete (3:20)
- Dependencias de StartPackage (3:18)
- Paquetes StartNPM y control de fuente (3:51)
- Inicio de versiones semánticas (4:29)
- Comience a listar los paquetes instalados (2:10)
- Información de registro de StartViewing para un paquete (2:45)
- InicioInstalación de una versión específica de un paquete (1:05)
- StartUpdating Paquetes locales (5:02)
- StartDevDependencies (1:51)
- Inicio Desinstalar un paquete (0:40)
- Comience a trabajar con paquetes globales (2:32)
- InicioPublicar un paquete (4:32)
- Inicio Actualización de un paquete publicado (1:55)
- StartNPM Recap
-Creación de API RESTful con Express (00:56)
- InicioIntroducción (0:47)
- StartRESTful Services (5:57)
- InicioIntroducción Express (2:19)
- Comience a construir su primer servidor web (5:45)
- StartNodemon (1:30)
- Inicio Variables de entorno (3:13)
- Parámetros de inicio de ruta (3:22)
- StartHandling HTTP GET Requests (4:45)
- StartHandling HTTP POST Requests (3:42)
- StartCalling Endpoints con Postman (2:07)
- StartInput Validation (7:58)
- StartHandling HTTP PUT Requests (8:30)
- StartHandling HTTP Delete Requests (4:44)
- StartProject: compila la API de géneros (1:18)
- StartBuilding API RESTful con Express Recap
- Inicio Una nota rápida
-Express- Temas avanzados (00:55)
- Inicio1- Introducción (0:22)
- Start2- Middleware (2:48)
- Inicio3- Crear Middleware personalizado (4:23)
- Start4- Middleware incorporado (3:57)
- Inicio5- Middleware de terceros (3:55)
- Inicio6- Ambientes (4:05)
- Inicio7- Configuración (9:45)
- Inicio8- Depuración (6:54)
- Inicio9- Motores de plantilla (4:55)
- Inicio10- Integración de base de datos (1:36)
- Inicio11- Autenticación (0:29)
- Inicio12- Estructuración de aplicaciones Express (7:44)
- Inicio13- Proyecto- Reestructurar la aplicación (3:05)
- StartExpress- Resumen de temas avanzados
-JavaScript asincrónico (01:04)
- Inicio1- Código síncrono vs asíncrono (5:51)
- Start2- Patrones para tratar con código asincrónico (3:07)
- Start3- Callbacks (5:59)
- Start4- Callback Hell (2:27)
- Start5- Funciones nombradas para rescatar (4:41)
- Inicio6- Promesas (8:37)
- Inicio7- Reemplazo de devoluciones de llamada con promesas (3:31)
- Start8- Prometedoras promesas (5:31)
- Inicio9- Creando promesas establecidas (2:49)
- Start10- Ejecutando promesas en paralelo (6:14)
- Inicio11- Asíncrono y espera (6:55)
- Inicio12- Ejercicio (5:56)
-Operaciones CRUD con mangosta (01:15)
- Inicio1- Presentación de MongoDB (2:00)
- Start2- Instalación de MongoDB en Mac (3:58)
- Inicio3- Instalación de MongoDB en Windows (5:39)
- Inicio4- Conexión a MongoDB (3:52)
- Inicio5- Esquemas (3:48)
- Inicio6- Modelos (4:18)
- Inicio7- Guardar un documento (3:33)
- Inicio8- Consulta de documentos (4:18)
- Inicio9- Operadores de consultas de comparación (4:59)
- Inicio10- Operadores de consultas lógicas (2:01)
- Inicio11- Expresiones regulares (3:20)
- Inicio12- Contando (0:49)
- Inicio13- Paginación (1:36)
- Inicio14- Ejercicio 1 (7:57)
- Inicio15- Ejercicio 2 (4:34)
- Inicio16- Ejercicio 3 (3:19)
- Inicio17- Actualización de un documento- Consulta primero (3:35)
- Inicio18- Actualización de un documento- Actualización primero (6:14)
- Inicio19- Eliminación de documentos (2:38)
- Iniciar operaciones CRUD con Mongoose y MongoDB Recap
-Mongo - Validación de datos (00:54)
- Inicio1- Validación (6:59)
- Start2- Validadores integrados (4:54)
- Inicio3- Validadores personalizados (3:16)
- Start4- Validadores asíncronos (2:34)
- Inicio5- Errores de validación (3:37)
- Start6- Opciones de SchemaType (5:56)
- Start7- Project- Add Persistence to Genres API (14:05)
- Start8- Project- Build the Customers API (6:59)
- Inicio9- Reestructuración del proyecto (6:14)
- StartMongoose Validation Recap
-Relaciones de modelado de mangosta entre datos conectados (00:51)
- Inicio1- Modelado de relaciones (7:45)
- Start2- Documentos de referencia (3:51)
- Inicio3- Población (4:15)
- Inicio4- Incrustar documentos (6:54)
- Inicio5- Uso de una matriz de subdocumentos (4:31)
- Start6- Project- Build the Movies API (7:05)
- Start7- Project- Build the Rentals API (8:01)
- Inicio8- Transacciones (8:45)
- Start9- ObjectID (7:03)
- Start10- Validando ObjectIDs (6:13)
- Start11- Una mejor implementación (2:23)
- StartMongoose- Modelado de relaciones entre la recapitulación de datos conectados
-Autenticación y Autorización (01:13)
- Inicio1- Introducción (4:01)
- Inicio2- Crear el modelo de usuario (3:40)
- Inicio3- Registro de usuarios (7:53)
- Inicio4- Usando Lodash (5:21)
- Inicio5- Contraseñas hash (6:54)
- Inicio6: autenticación de usuarios (4:54)
- Inicio7: prueba de la autenticación (2:42)
- Start8- JSON Web Tokens (5:
-Comenzando (00:20)
- Vista previa Bienvenido (0:30)
- Vista previa Qué es el nodo (2:59)
- PreviewNode Architecture (3:01)
- Vista previa Cómo funciona el nodo (4:23)
- Vista previa del nodo de instalación (2:31)
- Vista previa Su primer programa de nodo (2:19)
- Vista previa Estructura del curso (2:13)
- StartRecap
-Sistema de módulo de nodo (00:58)
- InicioIntroducción (0:28)
- StartGlobal Object (3:21)
- StartModules (3:35)
- Comience a crear un módulo (4:43)
- Comience a cargar un módulo (5:22)
- Función de envoltorio StartModule (4:40)
- Módulo StartPath (4:08)
- Módulo StartOS (4:17)
- Módulo de sistema StartFile (4:50)
- Módulo StartEvents (6:17)
- Argumentos de StartEvent (3:08)
- StartExtending EventEmitter (8:01)
- Módulo StartHTTP (7:24)
- Resumen del núcleo de StartNode
-Administrador de paquetes de nodos (NPM) (00:48)
- InicioIntroducción (3:41)
- StartPackage.json (2:54)
- InicioInstalar un paquete de nodos (3:33)
- InicioUso de un paquete (3:20)
- Dependencias de StartPackage (3:18)
- Paquetes StartNPM y control de fuente (3:51)
- Inicio de versiones semánticas (4:29)
- Comience a listar los paquetes instalados (2:10)
- Información de registro de StartViewing para un paquete (2:45)
- InicioInstalación de una versión específica de un paquete (1:05)
- StartUpdating Paquetes locales (5:02)
- StartDevDependencies (1:51)
- Inicio Desinstalar un paquete (0:40)
- Comience a trabajar con paquetes globales (2:32)
- InicioPublicar un paquete (4:32)
- Inicio Actualización de un paquete publicado (1:55)
- StartNPM Recap
-Creación de API RESTful con Express (00:56)
- InicioIntroducción (0:47)
- StartRESTful Services (5:57)
- InicioIntroducción Express (2:19)
- Comience a construir su primer servidor web (5:45)
- StartNodemon (1:30)
- Inicio Variables de entorno (3:13)
- Parámetros de inicio de ruta (3:22)
- StartHandling HTTP GET Requests (4:45)
- StartHandling HTTP POST Requests (3:42)
- StartCalling Endpoints con Postman (2:07)
- StartInput Validation (7:58)
- StartHandling HTTP PUT Requests (8:30)
- StartHandling HTTP Delete Requests (4:44)
- StartProject: compila la API de géneros (1:18)
- StartBuilding API RESTful con Express Recap
- Inicio Una nota rápida
-Express- Temas avanzados (00:55)
- Inicio1- Introducción (0:22)
- Start2- Middleware (2:48)
- Inicio3- Crear Middleware personalizado (4:23)
- Start4- Middleware incorporado (3:57)
- Inicio5- Middleware de terceros (3:55)
- Inicio6- Ambientes (4:05)
- Inicio7- Configuración (9:45)
- Inicio8- Depuración (6:54)
- Inicio9- Motores de plantilla (4:55)
- Inicio10- Integración de base de datos (1:36)
- Inicio11- Autenticación (0:29)
- Inicio12- Estructuración de aplicaciones Express (7:44)
- Inicio13- Proyecto- Reestructurar la aplicación (3:05)
- StartExpress- Resumen de temas avanzados
-JavaScript asincrónico (01:04)
- Inicio1- Código síncrono vs asíncrono (5:51)
- Start2- Patrones para tratar con código asincrónico (3:07)
- Start3- Callbacks (5:59)
- Start4- Callback Hell (2:27)
- Start5- Funciones nombradas para rescatar (4:41)
- Inicio6- Promesas (8:37)
- Inicio7- Reemplazo de devoluciones de llamada con promesas (3:31)
- Start8- Prometedoras promesas (5:31)
- Inicio9- Creando promesas establecidas (2:49)
- Start10- Ejecutando promesas en paralelo (6:14)
- Inicio11- Asíncrono y espera (6:55)
- Inicio12- Ejercicio (5:56)
-Operaciones CRUD con mangosta (01:15)
- Inicio1- Presentación de MongoDB (2:00)
- Start2- Instalación de MongoDB en Mac (3:58)
- Inicio3- Instalación de MongoDB en Windows (5:39)
- Inicio4- Conexión a MongoDB (3:52)
- Inicio5- Esquemas (3:48)
- Inicio6- Modelos (4:18)
- Inicio7- Guardar un documento (3:33)
- Inicio8- Consulta de documentos (4:18)
- Inicio9- Operadores de consultas de comparación (4:59)
- Inicio10- Operadores de consultas lógicas (2:01)
- Inicio11- Expresiones regulares (3:20)
- Inicio12- Contando (0:49)
- Inicio13- Paginación (1:36)
- Inicio14- Ejercicio 1 (7:57)
- Inicio15- Ejercicio 2 (4:34)
- Inicio16- Ejercicio 3 (3:19)
- Inicio17- Actualización de un documento- Consulta primero (3:35)
- Inicio18- Actualización de un documento- Actualización primero (6:14)
- Inicio19- Eliminación de documentos (2:38)
- Iniciar operaciones CRUD con Mongoose y MongoDB Recap
-Mongo - Validación de datos (00:54)
- Inicio1- Validación (6:59)
- Start2- Validadores integrados (4:54)
- Inicio3- Validadores personalizados (3:16)
- Start4- Validadores asíncronos (2:34)
- Inicio5- Errores de validación (3:37)
- Start6- Opciones de SchemaType (5:56)
- Start7- Project- Add Persistence to Genres API (14:05)
- Start8- Project- Build the Customers API (6:59)
- Inicio9- Reestructuración del proyecto (6:14)
- StartMongoose Validation Recap
-Relaciones de modelado de mangosta entre datos conectados (00:51)
- Inicio1- Modelado de relaciones (7:45)
- Start2- Documentos de referencia (3:51)
- Inicio3- Población (4:15)
- Inicio4- Incrustar documentos (6:54)
- Inicio5- Uso de una matriz de subdocumentos (4:31)
- Start6- Project- Build the Movies API (7:05)
- Start7- Project- Build the Rentals API (8:01)
- Inicio8- Transacciones (8:45)
- Start9- ObjectID (7:03)
- Start10- Validando ObjectIDs (6:13)
- Start11- Una mejor implementación (2:23)
- StartMongoose- Modelado de relaciones entre la recapitulación de datos conectados
-Autenticación y Autorización (01:13)
- Inicio1- Introducción (4:01)
- Inicio2- Crear el modelo de usuario (3:40)
- Inicio3- Registro de usuarios (7:53)
- Inicio4- Usando Lodash (5:21)
- Inicio5- Contraseñas hash (6:54)
- Inicio6: autenticación de usuarios (4:54)
- Inicio7: prueba de la autenticación (2:42)
- Start8- JSON Web Tokens (5:
++ Arquitectura de Node.js
++ Cómo funciona Node.js
++ Instalación de Node.js
++ Su primer programa en Node.js
+
+### Node.js (Modulos del sistema)
+
++ El Objeto Global
++ Módulos
++ Crear un módulo
++ Cargar nuestro módulo
++ Función de envoltorio Module
++ Módulo Path
++ Módulo OS
++ Módulo de Sistema de archivos (fs)
++ Módulo Events
++ Argumentos Event
++ Extendiendo el EventEmitter
++ Módulo HTTP
+
+### Administrador de paquetes para Node.js (NPM)
+
++ Package.json
++ Instalar un paquete de nodos
++ Uso de un paquete
++ Dependencias de Package
++ Paquetes NPM y control de codigo
++ Versionamiento semántico
++ Listar los paquetes instalados
++ Observando información de registro para un paquete
++ Instalación de una versión específica de un paquete
++ Actualizando paquetes locales
++ Dependencias de desarrollo (DevDependencies)
++ Desinstalar un paquete
++ Comience a trabajar con paquetes globales
++ Publicar un paquete
++ Actualización de un paquete publicado
+
+### Creación de API RESTful con Express (00:56)
+
++ Introducción
++ RESTful Services
++ Introducción Express
++ Comience a construir su primer servidor web
++ Nodemon
++ Variables de entorno
++ Parámetros de inicio de ruta
++ Handling HTTP GET Requests
++ Handling HTTP POST Requests
++ Calling Endpoints con Postman
++ Input Validation
++ Handling HTTP PUT Requests
++ Handling HTTP Delete Requests
++ Project: compila la API de géneros
++ Building API RESTful con Express Recap
+ 
